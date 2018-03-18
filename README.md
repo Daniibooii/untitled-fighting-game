@@ -4,7 +4,7 @@
 This represents my attempt to create a very basic fighting game.<br>
 
 # How to Use
-The user will be able to access the game directly at: ,<br>
+The user will be able to access the game directly at: https://untitled-fighting-game.herokuapp.com/,<br>
 or DL my repo and host it themselves.<br>
 
 Further details/updates inbound.<br>
