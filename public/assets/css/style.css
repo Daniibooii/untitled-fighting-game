@@ -1,0 +1,51 @@
+[lots of extra code here to be worked through]
+
+.top-coin {
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+.carousel-item {
+  height: 250px;
+  width: 250px;
+  opacity: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.coin-btn {
+  border-width: 0px;
+  opacity: 0%;
+  margin: 0px, 0px, 0px, 0px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 99;
+}
+
+.coin-image {
+  height: 250px;
+  width: 250px;
+  background: transparent;
+  opacity: 50%;
+  margin: 0px, 0px, 0px, 0px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 1;
+}
+
+#check-currency-btn {
+float: left;
+}
+
+#call-gif-btn {
+float: right;
+}

@@ -1,23 +1,20 @@
 -- template below --
-DROP DATABASE IF EXISTS play_listDB;
+DROP DATABASE IF EXISTS fighters_listDB;
 
-CREATE DATABASE play_listDB;
+CREATE DATABASE fighters_listDB;
 
-USE play_listDB;
+USE fighters_listDB;
 
-CREATE TABLE songs (
+CREATE TABLE fighters (
 id INT NOT NULL AUTO_INCREMENT,
-  title VARCHAR(45) NULL,
-  artist VARCHAR(45) NULL,
-  genre VARCHAR(45) NULL,
+  name VARCHAR(45) NULL,
+  hp INTEGER(3) NULL,
+  attack INTEGER(2) NULL,
+  defense INTEGER(2) NULL,
+  special VARCHAR(45) NULL,
+  backstory VARCHAR(200) NULL,
   PRIMARY KEY (id)
 );
 
-INSERT INTO songs (title, artist, genre)
-VALUES ("Song", "Grimes", "Synth-Pop");
-
-INSERT INTO songs (title, artist, genre)
-VALUES ("Song", "Nirvana", "Grunge");
-
-INSERT INTO songs (title, artist, genre)
-VALUES ("song", "Guns and Roses", "Rock");
+INSERT INTO fighters (name, hp, attack, defense, special, backstory)
+VALUES ("", "", "", "", "", "",); -- can't remember; different syntax with ints?
